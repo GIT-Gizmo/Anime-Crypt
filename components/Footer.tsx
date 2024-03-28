@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="sticky bottom-0 sm:px-16 px-8 flex justify-between items-center gap-2 flex-wrap bg-gray-100 backdrop-blur-lg bg-opacity-5">
+    <footer className="sticky bottom-0 sm:px-16 px-8 flex justify-between items-center gap-2 flex-wrap bg-gray-100 backdrop-blur-lg bg-opacity-5 rounded-tl-md rounded-tr-md">
       <p className="text-base font-bold text-white">@2024 AnimeCrypt</p>
       <Image
         src="./logo.svg"
