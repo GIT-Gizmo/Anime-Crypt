@@ -16,8 +16,8 @@ function Hero() {
           Anime Fantasy
         </h1>
       </div>
-      <div className="lg:flex-1 relative w-full h-full justify-center">
-        <Image src="/anime2.webp" alt="anime" fill className="object-contain" />
+      <div className="lg:flex-1 relative w-full h-[50vh] justify-center">
+        <Image src="/anime.png" alt="anime" fill className="object-contain" />
       </div>
     </header>
   );
